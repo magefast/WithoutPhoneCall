@@ -1,0 +1,22 @@
+{
+  "name": "magefast-dragonfly/module-without-phone-call",
+  "minimum-stability": "dev",
+  "description": "Magento extension for Checkout. No telephone call.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Dragonfly\\WithoutPhoneCall\\": ""
+    }
+  }
+}
